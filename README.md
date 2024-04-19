@@ -2,6 +2,9 @@
 - The web interface is built using Python’s Streamlit library, this was an obvious choice as the dashboard’s purpose was to encapsulate the Signature-based detection tool and ML model both of which were developed using Python.
 - Our Web-Interface supports log file upload, the uploaded log files will be evaluated with our hybrid IoT Attack detection Framework, and the results will be stored as a report and a Notification will be sent on WhatsApp to the administrator. The network host from whom the malicious packets are detected will be blacklisted, hence mitigating further attacks.
 
+- Schematic diagram of proposed hybrid framework
+![image](https://github.com/prince-7/Hybird-IoT-IDPS-with-ML/assets/53997924/0b4f699c-5289-407e-99c5-97772e931aa9)
+
 - Our web interface has a dashboard showing metrics of performed scans, there is a file uploader, along with detailed reports of previous scans.
 ![image](https://github.com/prince-7/Hybird-IoT-IDPS-with-ML/assets/53997924/0ca520e7-bdbc-49dd-a647-205555b699e2)
 
